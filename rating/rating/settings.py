@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main', # ye aapka main app 
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

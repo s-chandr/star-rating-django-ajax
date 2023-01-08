@@ -6,7 +6,6 @@ from django.contrib.auth.models import User
 class Book(models.Model):
     name = models.CharField(max_length=255)
     author = models.CharField(max_length=255)
-    # rating = models.ManyToManyField(User,related_name='posts')
     image = models.ImageField(upload_to="book_img/")
     def __str__(self):
         return self.name
